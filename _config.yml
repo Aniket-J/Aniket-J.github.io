@@ -1,42 +1,81 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Set theme
+remote_theme: bulma-clean-theme
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+- jekyll-remote-theme
 
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Bootstrap 4 Github Pages
-email: ""
-description: >- # this means to ignore newlines until "baseurl:"
-  A Bootstrap 4 start up project for Jekyll and Github Pages
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  jekyll
+url: 'https://mydomain.com'
+baseurl: ''
+title: 'My website'
+description: 'This is my new website'
+permalink: pretty
+logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
 
-repository: "nicolas-van/bootstrap-4-github-pages"
+livereload: true
 
-# Build settings
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
 
-# A list of the pages to display in the navigation bar
-header_pages:
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Projects
+  url: /blog/
+- title: Random
+  url: /random/
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - update_boostrap.sh
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "stuff 1"
+    feature_text: This should appear over an image
+    feature_image: "/assets/pano_test.jpg"
+  
+  posts:
+    title: Random 2
+    output: true
+    description: "stuff sdfsjkdfhskjf"
+    feature_text: This should appear over Euston
+    feature_image: "/assets/euston.jpg"
+# Collection settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post # Set the default layout for posts
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page # Set the default layout for pages
