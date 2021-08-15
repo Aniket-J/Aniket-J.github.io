@@ -1,144 +1,42 @@
 ---
-title: Elements
-feature_text: |
-  A demo of Markdown and HTML includes
+title: All the professional bits
 feature_image: "https://picsum.photos/2560/600?image=873"
-excerpt: "A demo of Markdown and HTML includes"
-aside: true
+aside: false
 ---
 
-# Heading 1
+# Research & work experience
 
-## Heading 2
+1. PhD Researcher, The Open University **(current)**
 
-### Heading 3
+My PhD deals with High Temperature Steels and how they perform over a long period of time (40 years+)
 
-#### Heading 4
+2. Research Assistant, Imperial College London (NCS Project) **(current)**
 
-##### Heading 5
+As part of the NCS (National COVID-19 Study) Project, I work as a Research Assistant within the AMCG (Applied Modelling & Computation Group) at Imperial College London. 
 
-###### Heading 6
+3. SA
+# Education
 
-<small>A small element</small>
+1. PhD: The Open University (2019 - current)
+* Research area: Materials Science and Machine Learning
+* Thesis: Reinforcement of Miniaturized Specimen Test Techniques for Residual Creep Life Determination With Machine Learning 
+2. MSc: Imperial College London, Advanced Nuclear Engineering (Distinction)
+* Thesis: Numerical Modelling of In-Vessel Melt Retention: The LIVE Experiments
+3. BTech: VIT University, Mechanical Engineering (9.1/10)
+* Thesis: Analysis of shockwave propagation in air
 
-[A link](https://david.darn.es "A link")
+# Fun stuff
 
-Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.
+Currently, I'm working on the following things :) These are just things that I like to do in my free time.
 
-Duis aute irure dolor in [A link](https://david.darn.es "A link") reprehenderit in voluptate velit esse cillum **bold text** dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt _italicised text_ in culpa qui officia deserunt mollit anim id `some code` est laborum.
+1. BMW-esque volume control for Linux
 
-* An item
-* An item
-* An item
-* An item
-* An item
+This fun project uses OpenCV to recognize my hands and track its movements to control the volume of my PC. I found this really nifty and wanted to see if I could implement BMW's gesture control system's gestures for Linux. It's still a work in progress and I need to do a small GUI for it before I can make this open-source.
 
-1. Item one
-2. Item two
-3. Item three
-4. Item four
-5. Item five
+The source-code for it is here. 
 
-> A simple blockquote
+2. GUI for Open University's proprietary code
 
-Some HTML...
+# What's next
 
-``` html
-<blockquote cite="http://www.imdb.com/title/tt0284978/quotes/qt1375101">
-  <p>You planning a vacation, Mr. Sullivan?</p>
-  <footer>
-    <a href="http://www.imdb.com/title/tt0284978/quotes/qt1375101">Sunways Security Guard</a>
-  </footer>
-</blockquote>
-```
-
-...CSS...
-
-``` css
-blockquote {
-  text-align: center;
-  font-weight: bold;
-}
-blockquote footer {
-  font-size: .8rem;
-}
-```
-
-...and JavaScript
-
-``` js
-const blockquote = document.querySelector("blockquote")
-const bolden = (keyString, string) =>
-  string.replace(new RegExp(keyString, 'g'), '<strong>'+keyString+'</strong>')
-
-blockquote.innerHTML = bolden("Mr. Sullivan", blockquote.innerHTML)
-```
-
-`Single line of code`
-
-## HTML Includes
-
-### Contact form
-
-{% include site-form.html %}
-
-``` html
-{% raw %}{% include site-form.html %}{% endraw %}
-```
-
-### Demo map embed
-
-{% include map.html id="1UT-2Z-Vg_MG_TrS5X2p8SthsJhc" title="Coffee shop map" %}
-
-``` html
-{% raw %}{% include map.html id="XXXXXX" title="Coffee shop map" %}{% endraw %}
-```
-
-### Button include
-
-{% include button.html text="A button" link="https://david.darn.es" %}
-
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}
-
-``` html
-{% raw %}{% include button.html text="A button" link="https://david.darn.es" %}
-{% include button.html text="A button with icon" link="https://twitter.com/daviddarnes" icon="twitter" %}{% endraw %}
-```
-
-### Icon include
-
-{% include icon.html id="twitter" title="twitter" %} [{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes)
-
-``` html
-{% raw %}{% include icon.html id="twitter" title="twitter" %}
-[{% include icon.html id="linkedin" title="twitter" %}](https://www.linkedin.com/in/daviddarnes){% endraw %}
-```
-
-### Video include
-
-{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}
-
-``` html
-{% raw %}{% include video.html id="zrkcGL5H3MU" title="Siteleaf tutorial video" %}{% endraw %}
-```
-
-
-### Image includes
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}
-
-``` html
-{% raw %}{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Right aligned image" position="right" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
-
-{% include figure.html image="https://picsum.photos/1600/800?image=894" alt="Image with just alt text" %}{% endraw %}
-```
+Where am I going with this basically

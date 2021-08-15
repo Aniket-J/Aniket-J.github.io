@@ -1,4 +1,4 @@
-<div class="form  form--search">
+I"ñ<div class="form  form--search">
   <form id="contact-form" action="">
     <label class="label" for="search">Search term:</label>
     <input class="input" id="search" type="search" name="search" placeholder="e.g. Aniket's climbing journey" autocomplete="off" />
@@ -9,9 +9,10 @@
   </form>
 </div>
 
-<script type="text/javascript" src="{{ "/assets/scripts/fetch.js" | relative_url }}"></script>
+<script type="text/javascript" src="/assets/scripts/fetch.js"></script>
+
 <script type="text/javascript">
-  const endpoint = '{{ "/assets/search.json" | relative_url }}';
+  const endpoint = '/assets/search.json';
 
   const pages = [];
 
@@ -55,4 +56,7 @@
     }
   });
 </script>
+
 <noscript>Please enable JavaScript to use the search form.</noscript>
+
+:ET
