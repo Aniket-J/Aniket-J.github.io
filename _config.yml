@@ -129,7 +129,7 @@ navigation_header:
 - title: Search
   url: /search/
 - title: Contact
-  url: /categories
+  url: /contact
 
 navigation_footer:
 - title: Originally adapted from the Alembic theme by David Darnes
