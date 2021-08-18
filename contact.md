@@ -3,11 +3,7 @@ title: Contact Details
 aside: false
 ---
 
-You can contact me via the following ways:
+You can contact me on these platforms:
 
-1. LinkedIn: aniketjnuclear
-2. Email: contact.aniketj@gmail.com
-3. Fill out the contact form below:
-### Contact form
-
-{% include site-form.html %}
+1. LinkedIn: [aniketjnuclear](https://www.linkedin.com/in/aniketjnuclear)
+2. Email: [contact.aniketj@gmail.com](mailto:contact.aniketj@gmail.com)
