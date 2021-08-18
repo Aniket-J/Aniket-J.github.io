@@ -9,7 +9,7 @@ excerpt: "This is it"
 
 Hello! I'm Aniket J and welcome to my personal website. 
 
-I'm a PhD Researcher with The Open University and a Research Assistant with Imperial College London. Currently, I'm looking for opportunities in MLOps  :)
+I'm a PhD Researcher with The Open University and a Research Assistant with Imperial College London. Currently, I'm looking for opportunities in machine learning  :)
 
 Head over to the tabs in the navigation bar to find out more about me! 
 
