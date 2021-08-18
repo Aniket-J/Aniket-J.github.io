@@ -3,7 +3,7 @@ title: About me
 feature_text: |
   ## Hello!
 feature_image: "https://picsum.photos/1300/400?image=947"
-excerpt: "This is it"
+excerpt: "Personal website for Aniket Joshi"
 ---
 
 Hello! I'm Aniket J and welcome to my personal website. 
