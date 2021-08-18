@@ -1,6 +1,6 @@
 ---
-title: All the professional bits
-feature_image: "https://picsum.photos/2560/600?image=873"
+title: Professional stuff
+feature_image: "https://picsum.photos/2560/600?image=232"
 aside: false
 ---
 
