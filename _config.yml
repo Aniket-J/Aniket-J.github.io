@@ -128,18 +128,16 @@ navigation_header:
 - title: Search
   url: /search/
 - title: Contact
-  url: /contact
+  url: /contact/
 
 navigation_footer:
 - title: Originally adapted from the Alembic theme by David Darnes
   url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
-  #Twitter: https://twitter.com/DavidDarnes
   LinkedIn: https://www.linkedin.com/in/aniketjnuclear
   GitHub: https://github.com/aniketjnuclear
-  #link: https://darn.es
-  #RSS: /feed.xml
+  #Instagram:
 
 sharing_links: # Appear at the bottom of single blog posts, add as desired. The value can be 'true' or the desired button colour
   Twitter: "#0d94e7"

@@ -71,12 +71,19 @@ body {
 
 .nav {
   a {
+    float: left;
     padding: .2rem;
   }
   &--social a {
     display: inline-block;
     line-height: 1;
   }
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .small {
