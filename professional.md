@@ -8,7 +8,16 @@ aside: false
 
 1. PhD Researcher, The Open University **(current)**
 
-My PhD deals with High Temperature Steels and how they perform over a long period of time (40 years+)
+My PhD deals with high-temperature performance materials and how they perform over a long period of time (40 years+) due to creep.
+
+Broadly, this can be divided into 3 phases:
+* Experimentation
+* Simulation
+* Machine learning
+
+The experiments involved are a departure from the conventionally used sub-size specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, my specimens save xyz%
+
+{% include figure.html image="/assets/images/Website_professional_thesis.svg" caption="PhD summary" width="800" height="1000" %}
 
 2. Research Assistant, Imperial College London (NCS Project) **(current)**
 
@@ -27,7 +36,7 @@ As part of the NCS (National COVID-19 Study) Project, I work as a Research Assis
 
 # Fun stuff
 
-Currently, I'm working on the following things :) These are just things that I like to do in my free time.
+Currently, I'm working on the following things. These are just things that I like to do in my free time.
 
 1. BMW-esque volume control for Linux
 
