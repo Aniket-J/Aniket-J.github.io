@@ -1,5 +1,5 @@
 ---
-title: Professional stuff
+title: Work
 feature_image: "https://picsum.photos/2560/600?image=232"
 aside: false
 ---
