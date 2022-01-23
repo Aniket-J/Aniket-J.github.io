@@ -26,7 +26,7 @@ I've gone one step further in my research and I'm investigating the feasibility 
 In addition to this, I am also responsible for maintaining the department's proprietary software (written in MATLAB) for Digital Image Correlation
 ##### Research Assistant, Imperial College London (NCS Project) **(current)** #####
 
-As part of the NCS (National COVID-19 Study) Project, I work as a Research Assistant within the AMCG (Applied Modelling & Computation Group) at Imperial College London. 
+As part of the NCS (National Core Study) Project, PROTECT portfolio, I work as a Research Assistant within the AMCG (Applied Modelling & Computation Group) at Imperial College London. 
 
 My work involves analyzing the propagation of air-flows in different built environments. My work goes on to inform policymaking for COVID-19 and how mitigating measures may be implemented for better health and safety of occupants in any given structure. 
 
