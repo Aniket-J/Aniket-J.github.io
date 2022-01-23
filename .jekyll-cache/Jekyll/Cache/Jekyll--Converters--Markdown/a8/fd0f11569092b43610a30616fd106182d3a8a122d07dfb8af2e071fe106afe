@@ -1,0 +1,74 @@
+I"�<h1 id="research--work-experience">Research &amp; work experience</h1>
+
+<h5 id="phd-researcher-the-open-university-current">PhD Researcher, The Open University <strong>(current)</strong></h5>
+<p>My PhD deals with high-temperature performance of materials and how they perform over a long period of time (40 years+) due to creep.
+Broadly, this can be divided into 3 phases:</p>
+<ul>
+  <li>Experimentation</li>
+  <li>Simulation</li>
+  <li>Machine learning</li>
+</ul>
+
+<p>The experiments involved are a departure from the conventionally used sub-size specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, my specimens save xyz%</p>
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/Website_professional_thesis.svg" alt="PhD summary" width="800" height="1000" />
+  <figcaption class="caption">PhD summary</figcaption>
+</figure>
+
+<h2 id="research-assistant-imperial-college-london-ncs-project-current">Research Assistant, Imperial College London (NCS Project) <strong>(current)</strong></h2>
+
+<p>As part of the NCS (National COVID-19 Study) Project, I work as a Research Assistant within the AMCG (Applied Modelling &amp; Computation Group) at Imperial College London.</p>
+
+<ol>
+  <li>
+    <p>Visiting Researcher, Imperial College London (Severe Accidents in Nuclear Reactors) <strong>(current)</strong></p>
+  </li>
+  <li>
+    <p>Project Intern, DRDO, India <strong>(Dec 2017 - May 2018)</strong></p>
+  </li>
+</ol>
+
+<h1 id="education">Education</h1>
+
+<ol>
+  <li>PhD: The Open University (2019 - current)</li>
+</ol>
+
+<ul>
+  <li>Research area: Materials Science and Machine Learning</li>
+  <li>Thesis: Reinforcement of Miniaturized Specimen Test Techniques for Residual Creep Life Determination With Machine Learning</li>
+</ul>
+
+<ol>
+  <li>MSc: Imperial College London, Advanced Nuclear Engineering (Distinction)
+    <ul>
+      <li>Thesis: Numerical Modelling of In-Vessel Melt Retention: The LIVE Experiments</li>
+    </ul>
+  </li>
+  <li>BTech: VIT University, Mechanical Engineering (9.1/10)
+    <ul>
+      <li>Thesis: Analysis of shockwave propagation in air</li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="fun-stuff">Fun stuff</h1>
+
+<p>Currently, I’m working on the following things. These are just things that I like to do in my free time.</p>
+
+<ol>
+  <li>BMW-esque volume control for Linux</li>
+</ol>
+
+<p>This fun project uses OpenCV to recognize my hands and track its movements to control the volume of my PC. I found this really nifty and wanted to see if I could implement BMW’s gesture control system’s gestures for Linux. It’s still a work in progress and I need to do a small GUI for it before I can make this open-source.</p>
+
+<p>The source-code for it is here.</p>
+
+<ol>
+  <li>GUI for Open University’s proprietary code</li>
+</ol>
+
+<h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
+
+<p>Where am I going with this basically</p>
+:ET
