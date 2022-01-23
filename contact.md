@@ -1,5 +1,5 @@
 ---
-title: Contact Details
+title: Contact
 aside: false
 ---
 
