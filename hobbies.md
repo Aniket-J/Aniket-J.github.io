@@ -37,4 +37,4 @@ Cooking is another thing that I use as a tool to de-stress myself. My name liter
 
 I mainly cook dishes from the Indian subcontinent, but, when I have the time, I love experimenting with dishes! Due to my perfectionist nature, I tend to obsess over details even in cooking. This has resulted in me perfecting two recipes that I'm proud of: Chole/Chickpea Masala (picture below) and Paneer Bhurji (scramble). I cooked these for my family when I visited them and they had to conceeded it was better than mum's! 
 
-{% include figure.html image="/assets/images/Hobbies_cooking_chole.jpg" caption="Chole Masala" width="800" height="1000" %}
+{% include figure.html image="/assets/images/Hobbies_cooking_chole.jpg" caption="Chole Masala. Quite delicious!" width="800" height="1000" %}

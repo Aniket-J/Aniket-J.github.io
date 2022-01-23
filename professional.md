@@ -15,7 +15,7 @@ Broadly, this can be divided into 3 phases:
 
 The experiments involved are a departure from the conventionally used sub-size specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, one of my test's samples is around 80 times smaller than its conventional counterparts. Picture below to illustrate the size of the specimen compared to my index finger!
 
-{% include figure.html image="/assets/images/Professional_phd_spt.jpg" caption="PhD summary" width="800" height="1000" %}
+{% include figure.html image="/assets/images/Professional_phd_spt.jpg" caption="Specimen vs Index Finger, a size comparison." width="800" height="1000" %}
 
 My research would make it easier to inspect powerplants and jet-engines with minimal amount of material, thereby not impacting the structural integrity either. This would help in the development of new alloys and test irradiated structures with even more safety.
 
