@@ -9,6 +9,7 @@ aside: false
 ##### PhD Researcher, The Open University **(current)** #####
 My PhD deals with high-temperature performance of materials and how they perform over a long period of time (40 years+) due to creep.
 Broadly, this can be divided into 3 phases:
+
 * Experimentation
 * Simulation
 * Machine learning
@@ -23,12 +24,14 @@ I've gone one step further in my research and I'm investigating the feasibility 
 
 {% include figure.html image="/assets/images/Website_professional_thesis.svg" caption="PhD summary" width="800" height="1000" %}
 
+My primary tests of focus are the Small Ring Test and the Small Punch Test. I combine inverse-finite element modelling on these and subsequently (in progress) use Hilbert space-filling curves on these optimzied FE models to produce a Reduced Order Model.
+
 In addition to this, I am also responsible for maintaining the department's proprietary software (written in MATLAB) for Digital Image Correlation
-##### Research Assistant, Imperial College London (NCS Project) **(current)** #####
+##### Research Assistant, Imperial College London (NCS Project) **(April 2021 - March 2022)** #####
 
-As part of the NCS (National Core Study) Project, PROTECT portfolio, I work as a Research Assistant within the AMCG (Applied Modelling & Computation Group) at Imperial College London. 
+As part of the NCS (National Core Study) Project, PROTECT portfolio, I worked as a Research Assistant within the AMCG (Applied Modelling & Computation Group) at Imperial College London. 
 
-My work involves analyzing the propagation of air-flows in different built environments. My work goes on to inform policymaking for COVID-19 and how mitigating measures may be implemented for better health and safety of occupants in any given structure. 
+My work involved analyzing the propagation of air-flows in different built environments. My work went on to inform policymaking for COVID-19 and how mitigating measures may be implemented for better health and safety of occupants in any given structure. 
 
 This work involves numerical simulations on [IC-FERST](https://multifluids.github.io/), of which I am a developer, for large-scale geometries/structures that are also designed with the help of an in-house software.
 
@@ -36,7 +39,7 @@ Unfortunately, due to the confidential nature of this work, I am not able share 
 
 ##### Visiting Researcher, Imperial College London **(current)** #####
 
-This role pertains largely to research in severe accidents in nuclear reactors, and is an ongoing effort to establish international cooperation between AMCG and other academic partners.
+This role pertains largely to research in severe accidents in nuclear reactors, and is an ongoing effort to establish international cooperation between AMCG and other academic partners. We currently have a huge collaborative paper (titled 'Numerical Study of the Effect of Geometry on the Behaviour of Internally Heated Melt Pools for In-Vessel Melt Retention') under review.
 
 In this role, I supervise MSc projects with our partners and enhance IC-FERST's capabilities (in-house numerical simulation software) for better simulating severe accidents. The projects aim to combine CFD with machine learning to augment the analyses.
 
