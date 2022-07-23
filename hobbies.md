@@ -13,7 +13,7 @@ I haven't been doing it for long, though. I started in June 2021 but I was set b
 
 Currently climbing V3s. See attached picture below for one of my current projects.
 
-{% include figure.html image="/assets/images/Hobbies_climbing_project.jpeg" caption="Current project (V4). Start is with both hands on the right hold which is slightly cut-off! It feels almost impossible to stand on this to start it." width="800" height="1000" %}
+{% include figure.html image="/assets/images/Hobbies_climbing_project.jpeg" caption="Current project (V4). Start is with hands on the holds circled green. The finish is a bit sketchy and it's a tad hard on the fingers." width="800" height="1000" %}
 
 Climbing is a major part of my life now and I use it as a way to organize my thoughts and go to a zen place. It's truly magical and discovering this sport has been a life-changing experience for me. 
 

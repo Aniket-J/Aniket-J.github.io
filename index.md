@@ -12,6 +12,6 @@ I'm a PhD Researcher with The Open University and a Visiting Researcher (and for
 
 My PhD focusses on combining high temperature steel performance with machine learning while my RA-ship, funded by the HSE, analysed the dispersion of COVID-19 under the umbrella of the National Core Study (NCS) project. 
 
-Head over to the tabs in the navigation bar to find out more about me! 
+Head over to the tabs in the navigation bar to find out more about me.
 
 Thank you so much for visiting. I hope you have a great day!
