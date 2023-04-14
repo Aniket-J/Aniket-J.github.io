@@ -35,7 +35,14 @@ This combination can be visualized in the image below, with the ring painted for
 
 I have used optimization routines in conjunction with numerical simulations to obtain unknown material parameters. I leveraged this technique to translate the test's force-displacement data to a more general-purpose stress-strain data for this new testing methodology.
 
-This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632.
+This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632 and the predictions were extremely close on new hidden data as well, as seen in the image below.
+
+{% include figure.html image="/assets/images/316L_RT_SRTT_0_3333mmMin_cleaned_RFRandXGB_limited.png" caption="Predictions on new experiments." width="800" height="1000" %}
+
+
+Extensive data cleaning procedures were also analysed, such as butterworth signal filtering (shown below) or the convolution smoothing.
+
+{% include figure.html image="/assets/images/butterworth_filter_example.png" caption="Cleaning up the test data." width="800" height="1000" %}
 
 Using the power of physics baked in with my analytical solution, I devised a physics-informed data-driven conversion method that allows users to obtain material parameteres directly without the need of any expensive simulations.
 

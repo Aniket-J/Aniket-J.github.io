@@ -1,4 +1,4 @@
-I"�'<h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
+I"�+<h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
 
 <p>I have a broad skillset that I have enhanced over the years. My current focus is on data-driven solutions for complex systems. I’m especially interested in roles that aim to combine machine learning with rigorous scientific avenues. Even better if it involves a bit of Material Science!</p>
 
@@ -24,19 +24,29 @@
 
 <p>I’ve gone one step further in my research and I’m investigating the feasibility of combining 3 tests from a single specimen (Small Punch + Small Ring Test). Volumetrically this would result in an 85x smaller specimen overall. Combing 3 tests (creep, tensile, fatigue) is also groundbreaking for these industries. My research overview is outlined below.</p>
 
-<p>{% include figure.html image=”/assets/images/Website_professional_thesis.svg” caption=”Research plan outline” width=”800” height=”1000” %}</p>
+<p>{% include figure.html image=”/assets/images/Website_professional_thesis.svg” caption=”Research plan outline.” width=”800” height=”1000” %}</p>
+
+<p>This combination can be visualized in the image below, with the ring painted for computer-vision based strain imaging.</p>
+
+<p>{% include figure.html image=”/assets/images/Professional_ring_disc_combination.jpg” caption=”Visualizing my hypothesis of combining ring and disc testing.” width=”800” height=”1000” %}</p>
 
 <p>I have used optimization routines in conjunction with numerical simulations to obtain unknown material parameters. I leveraged this technique to translate the test’s force-displacement data to a more general-purpose stress-strain data for this new testing methodology.</p>
 
-<p>This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632.</p>
+<p>This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632 and the predictions were extremely close on new hidden data as well, as seen in the image below.</p>
+
+<p>{% include figure.html image=”/assets/images/316L_RT_SRTT_0_3333mmMin_cleaned_RFRandXGB_limited.png” caption=”Cleaning up the test data.” width=”800” height=”1000” %}</p>
+
+<p>Extensive data cleaning procedures were also analysed, such as butterworth signal filtering (shown below) or the convolution smoothing.</p>
+
+<p>{% include figure.html image=”/assets/images/butterworth_filter_example.png” caption=”Cleaning up the test data.” width=”800” height=”1000” %}</p>
 
 <p>Using the power of physics baked in with my analytical solution, I devised a physics-informed data-driven conversion method that allows users to obtain material parameteres directly without the need of any expensive simulations.</p>
 
 <p>Below are a couple of images of the Small Ring Test as well. Images are taken from a Nikon D850 camera.</p>
 
-<p>{% include figure.html image=”/assets/images/SRT_initial.jpg” caption=”Small Ring Test- Ring specimen (SS316L) at the start of test” width=”800” height=”1000” %}</p>
+<p>{% include figure.html image=”/assets/images/SRT_initial.jpg” caption=”Small Ring Test- Ring specimen (SS316L) at the start of test.” width=”800” height=”1000” %}</p>
 
-<p>{% include figure.html image=”/assets/images/SRT_final.jpg” caption=”Small Ring Test- Ring specimen (SS316L) at the end of test” width=”800” height=”1000” %}</p>
+<p>{% include figure.html image=”/assets/images/SRT_final.jpg” caption=”Small Ring Test- Ring specimen (SS316L) at the end of test.” width=”800” height=”1000” %}</p>
 
 <p>In addition to this, I am also responsible for maintaining the department’s proprietary software (written in MATLAB) for Digital Image Correlation</p>
 
@@ -93,22 +103,22 @@
 
 <h1 id="select-publications">Select Publications</h1>
 
-<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. ``\textbf{Physics and data driven approach to analysing the Small Ring Tensile Test on SS316L at multiple displacement rates.}’’ \textit{Under Review.}</p>
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Physics and data driven approach to analysing the Small Ring Tensile Test on SS316L at multiple displacement rates.</strong> <em>Under Review.</em></p>
 
-<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. ``\textbf{Leveraging digital image correlation for the design of a new strain measurement system for the Small Ring Tensile Test.}’’ \textit{Under Review.}</p>
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Leveraging digital image correlation for the design of a new strain measurement system for the Small Ring Tensile Test.</strong> <em>Under Review.</em></p>
 
-<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. ``\textbf{Combining the Small Ring Test and the Small Punch Test}’’ \textit{Under Review.}</p>
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Preliminary results on feasibility of combination of the Small Ring Test and the Small Punch Test.</strong> <em>Under Review.</em></p>
 
-<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. ``\textbf{Open Source Digital Image Correlation Analysis Data on Select Open Source Data for Small Ring Tensile Test.}’’ \textit{Under Review.}</p>
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Open Source Digital Image Correlation Analysis Data on Select Open Source Data for Small Ring Tensile Test.</strong> <em>Under Review.</em></p>
 
-<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. ``\textbf{Open-Source Data for Small Ring Tensile Test performed on SS316L at multiple displacement rates.}’’ \textit{Open Research Data Online, The Open University.}</p>
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>“Open-Source Data for Small Ring Tensile Test performed on SS316L at multiple displacement rates.”</strong> <em>Open Research Data Online, The Open University.</em></p>
 
-<p>Akash Venkateshwaran, Mahendhar Kumar, Shyam Kumar, R. Sivakumar, <strong>Aniket Joshi</strong>, and Christopher Pain. ``\textbf{Numerical study of the effect of geometry on the behaviour of internally heated melt pools for in-vessel melt retention.}’’ \textit{Progress in Nuclear Energy 156} (2023): 104555.</p>
+<p>Akash Venkateshwaran, Mahendhar Kumar, Shyam Kumar, R. Sivakumar, <strong>Aniket Joshi</strong>, and Christopher Pain. <strong>“Numerical study of the effect of geometry on the behaviour of internally heated melt pools for in-vessel melt retention.”</strong> <em>Progress in Nuclear Energy 156</em> (2023): 104555.</p>
 
-<p>Aniket Joshi, Alex Forsey, Richard Moat, and Salih Güngör. <strong>“Preliminary results on conducting Small-Ring Test and Small-Punch Test on the same specimen.”</strong> \textit{Transactions, SMiRT-26, 2022}.</p>
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, and Salih Güngör. <strong>“Preliminary results on conducting Small-Ring Test and Small-Punch Test on the same specimen.”</strong> <em>Transactions, SMiRT-26, 2022.</em></p>
 
-<p>Rossella Arcucci, César Quilodrán Casas, \textbf{Aniket Joshi}, Laetitia Mottet, Asiri Obeysekara, Yi-Ke Guo, and Christopher Pain. 
-``\textbf{Enhancing CFD simulations of COVID-19 diffusion by coughing and sneezing using data assimilation.}’’ \textit{High Performance Computing on CRESCO Infrastructure: research activity and results 2020 (2021): 52.}</p>
+<p>Rossella Arcucci, César Quilodrán Casas, <strong>Aniket Joshi</strong>, Laetitia Mottet, Asiri Obeysekara, Yi-Ke Guo, and Christopher Pain. 
+<strong>“Enhancing CFD simulations of COVID-19 diffusion by coughing and sneezing using data assimilation.”</strong> <em>High Performance Computing on CRESCO Infrastructure: research activity and results 2020 (2021): 52.</em></p>
 
-<p>Aniket Joshi, Claire Heaney, Alan Jones, Liang Yang, Paul Smith, Ali Tehrani, Christopher C Pain. ``\textbf{Numerical modelling of in-vessel melt retention: The LIVE Experiments.}’’ \textit{25th International QUENCH Workshop: 22-24 October 2019, Karlsruhe Institute of Technology, Karlsruhe, Germany.}</p>
+<p><strong>Aniket Joshi</strong>, Claire Heaney, Alan Jones, Liang Yang, Paul Smith, Ali Tehrani, Christopher C Pain. <strong>“Numerical modelling of in-vessel melt retention: The LIVE Experiments.”</strong> <em>25th International QUENCH Workshop: 22-24 October 2019, Karlsruhe Institute of Technology, Karlsruhe, Germany.</em></p>
 :ET

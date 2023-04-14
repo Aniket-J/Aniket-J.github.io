@@ -1,4 +1,4 @@
-I"�)<h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
+I"�+<h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
 
 <p>I have a broad skillset that I have enhanced over the years. My current focus is on data-driven solutions for complex systems. I’m especially interested in roles that aim to combine machine learning with rigorous scientific avenues. Even better if it involves a bit of Material Science!</p>
 
@@ -32,7 +32,13 @@
 
 <p>I have used optimization routines in conjunction with numerical simulations to obtain unknown material parameters. I leveraged this technique to translate the test’s force-displacement data to a more general-purpose stress-strain data for this new testing methodology.</p>
 
-<p>This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632.</p>
+<p>This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632 and the predictions were extremely close on new hidden data as well, as seen in the image below.</p>
+
+<p>{% include figure.html image=”/assets/images/316L_RT_SRTT_0_3333mmMin_cleaned_RFRandXGB_limited.png” caption=”Predictions on new experiments.” width=”800” height=”1000” %}</p>
+
+<p>Extensive data cleaning procedures were also analysed, such as butterworth signal filtering (shown below) or the convolution smoothing.</p>
+
+<p>{% include figure.html image=”/assets/images/butterworth_filter_example.png” caption=”Cleaning up the test data.” width=”800” height=”1000” %}</p>
 
 <p>Using the power of physics baked in with my analytical solution, I devised a physics-informed data-driven conversion method that allows users to obtain material parameteres directly without the need of any expensive simulations.</p>
 
