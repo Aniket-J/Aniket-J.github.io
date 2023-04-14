@@ -1,15 +1,16 @@
-I"�!<h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
+I"� <h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
 
-<p>I have a broad skillset that I have enhanced over the years. My current focus is machine learning and its applicability in the real world. I’m especially interested in roles that aim to combine MLOps with rigorous scientific avenues. Even better if it involves a bit of Material Science!</p>
+<p>I have a broad skillset that I have enhanced over the years. My current focus is on data-driven solutions for complex systems. I’m especially interested in roles that aim to combine machine learning with rigorous scientific avenues. Even better if it involves a bit of Material Science!</p>
 
-<p>My diverse set of experiences would make me a valuable addition to any team, and I would prove to be an asset with my quick learning abilities. I have also led collaborative multinational studies (we have a big nuclear safety publication under review!) and worked on a breadth of physical computation domains.</p>
+<p>My diverse set of experiences would make me a valuable addition to any team, and I would prove to be an asset with my quick learning abilities. I have also led collaborative multinational studies and worked on a breadth of physical computation domains.</p>
 
 <p>Please feel free to reach out if you have any queries! My details are in the <a href="../contact/">Contact</a> tab.</p>
 <h1 id="research--work-experience">Research &amp; work experience</h1>
 
-<h5 id="phd-researcher-the-open-university-current">PhD Researcher, The Open University <strong>(current)</strong></h5>
-<p>My PhD deals with high-temperature performance of materials and how they perform over a long period of time (40 years+) due to creep.
-Broadly, this can be divided into 3 phases:</p>
+<h5 id="phd-researcher-the-open-university-october-2019---current">PhD Researcher, The Open University <strong>(October 2019 - Current)</strong></h5>
+<p>My PhD deals with high-temperature performance of materials and how they perform at a small-scale.</p>
+
+<p>Broadly, this can be divided into 3 phases:</p>
 
 <ul>
   <li>Experimentation</li>
@@ -17,23 +18,22 @@ Broadly, this can be divided into 3 phases:</p>
   <li>Machine learning</li>
 </ul>
 
-<p>The experiments involved are a departure from the conventionally used sub-size specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, one of my test’s samples is around 80 times smaller than its conventional counterparts. Picture below to illustrate the size of the specimen (from Small Punch Test) compared to my index finger!</p>
-
-<figure class="figure  figure--center">
-  <img class="image" src="/assets/images/Professional_phd_spt.jpg" alt="Specimen vs Index Finger, a size comparison." width="400" height="100" />
-  <figcaption class="caption">Specimen vs Index Finger, a size comparison.</figcaption>
-</figure>
+<p>The experiments involved are a departure from the conventionally used big specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, my newly designed test technique provides a materials saving of 97.89%.</p>
 
 <p>My research would make it easier to inspect powerplants and jet-engines with minimal amount of material, therefore not impacting the structural integrity. This would help in the development of new alloys and test irradiated structures with a higher safety margin.</p>
 
 <p>I’ve gone one step further in my research and I’m investigating the feasibility of combining 3 tests from a single specimen (Small Punch + Small Ring Test). Volumetrically this would result in an 85x smaller specimen overall. Combing 3 tests (creep, tensile, fatigue) is also groundbreaking for these industries. My research overview is outlined below.</p>
 
 <figure class="figure  figure--center">
-  <img class="image" src="/assets/images/thesisplan.svg" alt="Research plan outline" width="800" height="1000" />
+  <img class="image" src="/assets/images/Website_professional_thesis.svg" alt="Research plan outline" width="800" height="1000" />
   <figcaption class="caption">Research plan outline</figcaption>
 </figure>
 
-<p>I’m particularly excited about the Small Ring Test since I am currently exploring the ring’s geometrical deformation’s relations to the physical properties via unsupervised learning. I hope to publish these results in August! Additionally, I also combine inverse-finite element (FE) modelling on these and subsequently (in progress) use Hilbert space-filling curves on these optimzied FE models to produce a Reduced Order Model. This would allow for a generalizable deformation model that could be used for any material and, via the back-calculations in inverse FE, find out which alien material is being tested!</p>
+<p>I have used optimization routines in conjunction with numerical simulations to obtain unknown material parameters. I leveraged this technique to translate the test’s force-displacement data to a more general-purpose stress-strain data for this new testing methodology.</p>
+
+<p>This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632.</p>
+
+<p>Using the power of physics baked in with my analytical solution, I devised a physics-informed data-driven conversion method that allows users to obtain material parameteres directly without the need of any expensive simulations.</p>
 
 <p>Below are a couple of images of the Small Ring Test as well. Images are taken from a Nikon D850 camera.</p>
 
@@ -48,21 +48,22 @@ Broadly, this can be divided into 3 phases:</p>
 </figure>
 
 <p>In addition to this, I am also responsible for maintaining the department’s proprietary software (written in MATLAB) for Digital Image Correlation</p>
-<h5 id="research-assistant-imperial-college-london-ncs-project-april-2021---march-2022">Research Assistant, Imperial College London (NCS Project) <strong>(April 2021 - March 2022)</strong></h5>
 
-<p>As part of the NCS (National Core Study) Project, PROTECT portfolio, I worked as a Research Assistant within the AMCG (Applied Modelling &amp; Computation Group) at Imperial College London.</p>
+<h5 id="research-assistant-imperial-college-london-ntp---protect-april-2021---march-2022">Research Assistant, Imperial College London (NTP - PROTECT) <strong>(April 2021 - March 2022)</strong></h5>
+
+<p>As part of the National Transmission Project (NTP), PROTECT portfolio, I worked as a Research Assistant within the AMCG (Applied Modelling &amp; Computation Group) at Imperial College London.</p>
 
 <p>My work involved analyzing the propagation of air-flows in different built environments. My work went on to inform policymaking for COVID-19 and how mitigating measures may be implemented for better health and safety of occupants in any given structure.</p>
 
-<p>This work involves numerical simulations on <a href="https://multifluids.github.io/">IC-FERST</a>, of which I am a developer, for large-scale geometries/structures that are also designed with the help of an in-house software.</p>
+<p>This work involves numerical simulations on <a href="https://multifluids.github.io/">IC-FERST</a> for large-scale geometries/structures that are also designed with the help of an in-house software.</p>
 
 <p>Unfortunately, due to the confidential nature of this work, I am not able share any cool images relating to this.</p>
 
-<h5 id="visiting-researcher-imperial-college-london-current">Visiting Researcher, Imperial College London <strong>(current)</strong></h5>
+<h5 id="visiting-researcher-imperial-college-london-october-2019---september-2022">Visiting Researcher, Imperial College London <strong>(October 2019 - September 2022)</strong></h5>
 
-<p>This role pertains largely to research in severe accidents in nuclear reactors, and is an ongoing effort to establish international cooperation between AMCG and other academic partners. We currently have a huge collaborative paper (titled ‘Numerical Study of the Effect of Geometry on the Behaviour of Internally Heated Melt Pools for In-Vessel Melt Retention’) under review.</p>
+<p>This role pertained largely to research in severe accidents in nuclear reactors, and was a part of an ongoing effort to establish international cooperation between AMCG and other academic partners. We published a hugely collaborative paper (titled <a href="https://doi.org/10.1016/j.pnucene.2022.104555">‘Numerical Study of the Effect of Geometry on the Behaviour of Internally Heated Melt Pools for In-Vessel Melt Retention’</a>).</p>
 
-<p>In this role, I supervise MSc projects with our partners and enhance IC-FERST’s capabilities (in-house numerical simulation software) for better simulating severe accidents. The projects aim to combine CFD with machine learning to augment the analyses.</p>
+<p>In this role, I supervised MSc projects with our partners and enhance IC-FERST’s capabilities (in-house numerical simulation software) for better simulating severe accidents. The projects aim to combine CFD with machine learning to augment the analyses.</p>
 
 <p>The severe accidents pertain to a cataclysmic event in the lower-head of a reactor pressure vessel, where all the fuel material collects post-accident. More specifically, this work involves simulating the cooling of this fuel debris (it emits a lot of residual heat) and analyze its safety. Below is a snapshot of the fluid dynamics in this reactor after 8 seconds of simulation.</p>
 
