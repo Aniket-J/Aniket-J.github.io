@@ -21,11 +21,11 @@ Broadly, this can be divided into 3 phases:
 * Simulation
 * Machine learning
 
-The experiments involved are a departure from the conventionally used big specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, my newly designed test technique provides a materials saving of 97.89%.
+The experiments involved were a departure from the conventionally used big specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, my newly designed test technique provides a materials saving of 97.89%.
 
 My research would make it easier to inspect powerplants and jet-engines with minimal amount of material, therefore not impacting the structural integrity. This would help in the development of new alloys and test irradiated structures with a higher safety margin.
 
-I've gone one step further in my research and I'm investigating the feasibility of combining 3 tests from a single specimen (Small Punch + Small Ring Test). Volumetrically this would result in an 85x smaller specimen overall. Combing 3 tests (creep, tensile, fatigue) is also groundbreaking for these industries. My research overview is outlined below.
+I've gone one step further in my research and I'm investigating the feasibility of combining 3 tests from a single specimen (Small Punch + Small Ring Test). Volumetrically, this resulted in materials savings of 97.89%. Combing 3 tests (creep, tensile, fatigue) is also groundbreaking for these industries. My research overview is outlined below.
 
 {% include figure.html image="/assets/images/Website_professional_thesis.svg" caption="Research plan outline." width="800" height="1000" %}
 
@@ -33,18 +33,23 @@ This combination can be visualized in the image below, with the ring painted for
 
 {% include figure.html image="/assets/images/Professional_ring_disc_combination.jpg" caption="Visualizing my hypothesis of combining ring and disc testing." width="800" height="1000" %}
 
-I have used optimization routines in conjunction with numerical simulations to obtain unknown material parameters. I leveraged this technique to translate the test's force-displacement data to a more general-purpose stress-strain data for this new testing methodology.
+I used optimization routines in conjunction with numerical simulations to obtain unknown material parameters. I leveraged this technique to translate the test's force-displacement data to a more general-purpose stress-strain data for this new testing methodology.
 
-This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632 and the predictions were extremely close on new hidden data as well, as seen in the image below.
+This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632 and the predictions were extremely close on new hidden data as well, as seen in the image below. 
 
-{% include figure.html image="/assets/images/316L_RT_SRTT_0_3333mmMin_cleaned_RFRandXGB_limited.png" caption="Predictions on new experiments." width="800" height="1000" %}
+{% include figure.html image="/assets/images/316L_RT_SRTT_0_3333mmMin_cleaned_RFRandXGB_limited.png" caption="Predictions on new experiments via RFR and XGBoost." width="800" height="1000" %}
 
+My original experiments also performed largely well, as you can see in the heatmaps below. For the Small Ring Test (SRT) I performed 48 experiments at different pin displacement rates and for the Small Punch Test (SPT) I analysed the discs separately and both sets of inter-test comparison results are shown below:
 
-Extensive data cleaning procedures were also analysed, such as butterworth signal filtering (shown below) or the convolution smoothing.
+{% include figure.html image="/assets/images/SRTT_heatmap_R2scoreMinMax.png" caption="Inter-test comparison R2-scores for all the SRT experiments, with each tick representing the pin displacement rate in mm/min." width="800" height="1000" %}
 
-{% include figure.html image="/assets/images/butterworth_filter_example.png" caption="Cleaning up the test data." width="800" height="1000" %}
+{% include figure.html image="/assets/images/SPTT_heatmap_R2ScoreMinMax.png" caption="Inter-test comparison R2-scores for all the SPT experiments, with each tick representing the pin displacement rate in mm/min in the brackets. The `B` prefix represents the hypothesis batch (5 batches were tested) and the disc number represented by `D`. The `Norm` represents the normally extracted discs." width="800" height="1000" %}
 
-Using the power of physics baked in with my analytical solution, I devised a physics-informed data-driven conversion method that allows users to obtain material parameteres directly without the need of any expensive simulations.
+Extensive data cleaning procedures were also analysed, such as butterworth signal filtering (shown below) or the convolution smoothing. See the image below! I also devised a data-cleaning GUI-app for the department so that people don't have to go through the faff of creating this from scratch for their experiments. [GitHub repo here.](https://github.com/Aniket-J/MatSci-DC/tree/main)
+
+{% include figure.html image="/assets/images/butterworth_filter_example.png" caption="Visualising the cleaning up the test input data with Butterworth filter." width="800" height="1000" %}
+
+Using the power of physics baked in with my analytical solution, I devised a physics-informed data-driven conversion method that allows users to obtain material parameteres directly without the need of any expensive simulations for the Small Ring Test.
 
 Below are a couple of images of the Small Ring Test as well. Images are taken from a Nikon D850 camera. 
 
@@ -52,9 +57,7 @@ Below are a couple of images of the Small Ring Test as well. Images are taken fr
 
 {% include figure.html image="/assets/images/SRT_final.jpg" caption="Small Ring Test- Ring specimen (SS316L) at the end of test." width="800" height="1000" %}
 
-In addition to this, I am also responsible for maintaining the department's proprietary software (written in MATLAB) for Digital Image Correlation
-
-##### Research Assistant, Imperial College London (NTP - PROTECT) **(April 2021 - March 2022)** #####
+##### Research Assistant, Imperial College London (NCS - PROTECT) **(April 2021 - March 2022)** #####
 
 As part of the National Transmission Project (NTP), PROTECT portfolio, I worked as a Research Assistant within the AMCG (Applied Modelling & Computation Group) at Imperial College London. 
 
@@ -108,7 +111,7 @@ References available upon request.
 
 **Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **Preliminary results on feasibility of combination of the Small Ring Test and the Small Punch Test.** *Under Review.*
 
-**Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **Open Source Digital Image Correlation Analysis Data on Select Open Source Data for Small Ring Tensile Test.** *Under Review.*
+**Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **Open Source Digital Image Correlation Analysis Data on Select Open Source Data for Small Ring Tensile Test.** *Open Research Data Online, The Open University.*
 
 **Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **"Open-Source Data for Small Ring Tensile Test performed on SS316L at multiple displacement rates."** *Open Research Data Online, The Open University.*
 

@@ -40,7 +40,6 @@ livereload: true
 #paginate_path: blog/page:num # jekyll-paginate > blog page
 #jekyll-mentions: https://twitter.com # jekyll-mentions > service used when @replying
 #twitter:
-#  username: Aniketjnuclear # jekyll-seo-tag > Owners twitter username
 author: AniketJoshi # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Aniket Joshi # jekyll-seo-tag > real name

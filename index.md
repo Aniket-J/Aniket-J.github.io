@@ -12,7 +12,7 @@ I'm a PhD Researcher with The Open University and a former Research Assistant wi
 
 Currently, I'm looking for opportunities that leverage innovative approaches to solve challenging problems in data science and machine learning.
 
-My PhD focuses on combining high temperature steel performance with machine learning while my RA-ship, funded by the HSE, analyzed the dispersion of COVID-19 under the umbrella of the National Transmission Project (NTP).
+My PhD focussed on combining high temperature steel performance with machine learning while my RA-ship, funded by the HSE, analyzed the dispersion of COVID-19 under the umbrella of the National Core Studies (NCS).
 
 Head over to the tabs in the navigation bar to find out more about me.
 
