@@ -12,7 +12,27 @@ My diverse set of experiences would make me a valuable addition to any team, and
 Please feel free to reach out if you have any queries! My details are in the [Contact](../contact/) tab.
 # Experience
 
-##### PhD Researcher, The Open University **(October 2019 - Current)** #####
+##### MLOps Engineer, Point Zero Solutions **(Dec 2022 - Current)** #####
+
+This role covers a lot of things. Mainly, these are the few things that I have been responsible for and delivered on:
+
+* Build up the tech stack
+* Build APIs for GCP and mobile app integration
+* Build MLOps pipelines
+* Maintain all of the above
+* Secured GCP start-up award ($350k)
+
+All things considered, this has been a challenging and rewarding experience.
+
+The initial challenge was to connect to the client sites and transfer data to the Pzeros database. To resolve this, I wrote some scripts on the devices that are sent out to the clients (with everything pre-installed), and the device starts uploading the images to our database as soon as it's linked up.
+
+Once this is done, the real analysis begins. Vertex AI is great for deployment, but it's not very nice for ONNX deployments. To resolve this, I containerize the models and use the Artifact Registry (after Cloud Build fetches from GitHub) to feed into GCP as an Vetex AI endpoint.
+
+This inference, which is obtained once any new image is uploaded, is written to BigQuery, which in turns feeds into the Looker Dashboards for the client whose images are under consideration.
+
+This forms the core service of the firm, which you can read about more on the firm's [website](https://pzeros.com/). 
+
+##### PhD Researcher, The Open University **(Oct 2019 - Sep 2023)** #####
 My PhD deals with high-temperature performance of materials and how they perform at a small-scale.
 
 Broadly, this can be divided into 3 phases:
@@ -57,7 +77,7 @@ Below are a couple of images of the Small Ring Test as well. Images are taken fr
 
 {% include figure.html image="/assets/images/SRT_final.jpg" caption="Small Ring Test- Ring specimen (SS316L) at the end of test." width="800" height="1000" %}
 
-##### Research Assistant, Imperial College London (NCS - PROTECT) **(April 2021 - March 2022)** #####
+##### Research Assistant, Imperial College London (NCS - PROTECT) **(Apr 2021 - Mar 2022)** #####
 
 As part of the National Transmission Project (NTP), PROTECT portfolio, I worked as a Research Assistant within the AMCG (Applied Modelling & Computation Group) at Imperial College London. 
 
@@ -67,7 +87,7 @@ This work involves numerical simulations on [IC-FERST](https://multifluids.githu
 
 Unfortunately, due to the confidential nature of this work, I am not able share any cool images relating to this. 
 
-##### Visiting Researcher, Imperial College London **(October 2019 - September 2022)** #####
+##### Visiting Researcher, Imperial College London **(Oct 2019 - Sep 2022)** #####
 
 This role pertained largely to research in severe accidents in nuclear reactors, and was a part of an ongoing effort to establish international cooperation between AMCG and other academic partners. We published a hugely collaborative paper (titled ['Numerical Study of the Effect of Geometry on the Behaviour of Internally Heated Melt Pools for In-Vessel Melt Retention'](https://doi.org/10.1016/j.pnucene.2022.104555)).
 
@@ -77,37 +97,25 @@ The severe accidents pertain to a cataclysmic event in the lower-head of a react
 
 {% include figure.html image="/assets/images/tstep8_temp_velvec_nomesh.png" caption="Velocity vectors superimposed on the temperature field background. Simulation of lower-head of a reactor pressure vessel." width="800" height="1000" %}
 
-
-##### Project Intern, DRDO, India **(Dec 2017 - May 2018)** #####
-
-This role involved performing a lot of finite element analysis (FEA), especially in the domain of shock physics and shock loading. Coming into this role, I had virtually zero knowledge about these domains.
-
-However, I was soon simulating shock physics and structural interactions for the design of shock-resistant structures in my role. 
-
-I was also leading a study that analysed the effect of variation of geometry in cylindrical charges. This was in addition to other numerous activities, such as analyzing foam attenuation and soil attenuation, that I contributed to.
-
-My role was brief but extremely intensive and I successfully delivered on numerous projects. 
-
-References available upon request.
 # Education
 
-##### PhD: The Open University (2019 - current) #####
+##### PhD: The Open University #####
 
 * Research area: Materials Science and Machine Learning.
 * Thesis: Evaluation and optimisation of the Small Ring Test and its amalgamation with the Small Punch Test.
 
-##### MSc: Imperial College London, Advanced Nuclear Engineering (Distinction) #####
+##### Masters: Imperial College London, Advanced Nuclear Engineering (Distinction) #####
 * Thesis: Numerical Modelling of In-Vessel Melt Retention: The LIVE Experiments.
 * Awarded the William Penney Prize for my thesis work.
 
-##### BTech: VIT University, Mechanical Engineering (9.1/10) #####
+##### Bachelors: VIT University, Mechanical Engineering (9.1/10) #####
 * Thesis: Analysis of shockwave propagation in air.
 
 # Select Publications
 
 **Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **Physics and data driven approach to analysing the Small Ring Tensile Test on SS316L at multiple displacement rates.** *Under Review.*
 
-**Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **Leveraging digital image correlation for the design of a new strain measurement system for the Small Ring Tensile Test.** *Under Review.*
+**Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **Leveraging digital image correlation for the design of a new strain measurement system for the Small Ring Tensile Test.** *Under Review (w/ Experimental Mechanics).*
 
 **Aniket Joshi**, Alex Forsey, Richard Moat, Salih Güngör. **Preliminary results on feasibility of combination of the Small Ring Test and the Small Punch Test.** *Under Review.*
 
