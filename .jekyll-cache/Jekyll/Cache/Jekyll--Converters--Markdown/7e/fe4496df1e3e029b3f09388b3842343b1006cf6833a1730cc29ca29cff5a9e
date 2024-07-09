@@ -1,7 +1,7 @@
-I"ñ<div class="form  form--search">
+I"ä<div class="form  form--search">
   <form id="contact-form" action="">
     <label class="label" for="search">Search term:</label>
-    <input class="input" id="search" type="search" name="search" placeholder="e.g. Aniket's climbing journey" autocomplete="off" />
+    <input class="input" id="search" type="search" name="search" placeholder="e.g. Aniket's PhD" autocomplete="off" />
 
     <ul class="list  list--results" id="list">
         <!-- results go here -->

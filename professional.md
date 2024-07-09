@@ -12,7 +12,21 @@ My diverse set of experiences would make me a valuable addition to any team, and
 Please feel free to reach out if you have any queries! My details are in the [Contact](../contact/) tab.
 # Experience
 
-##### MLOps Engineer, Point Zero Solutions **(Dec 2022 - Current)** #####
+##### Gen AI Research Engineer, Royal College of Art & Young Vic Theatre **(Mar 2024 - Current)** #####
+
+As seems to be the case with everything now, this role covered a lot of things (and I say this positively), and has been super fun. Few things that I have been responsible for and delivered on:
+
+* Deployed Agentic LLM systems in prod in context of a theatrical setting.
+* Synthesized speech Gen AI and explored the effect of Image Gen AI in the space of performing arts.
+* Evaluated feasibility of different LLMs, spanning proprietary (OpenAI, Gemini, etc) and open-source (Llama 2 + 3, Mistral, etc) models.
+* Customised LLMs above using client data after identifying appropriate strategy (LoRA, ORPO, etc).
+* Designed and deployed LLM tech stack in AWS Sagemaker (monitored via Shadow inferencing and Cloudwatch).
+* Developed in-house software for organisation to extract data from own docs for precise LLM fine-tuning.
+* Co-authored extensive multinational collaborative grants (£1m+) to address ethics in Gen AI.
+
+This role has given me a deep insight into something I deeply care about: LLM deployment but responsibly. Ethics in Gen AI are a tricky issue and navigating this in a production environment has been extremely rewarding and it's a super awesome system!
+
+##### MLOps Engineer, Point Zero Solutions **(Dec 2022 - Feb 2024)** #####
 
 This role covers a lot of things. Mainly, these are the few things that I have been responsible for and delivered on:
 

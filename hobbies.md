@@ -4,14 +4,23 @@ feature_image: "https://picsum.photos/2560/600?image=873"
 aside: false
 ---
 
-I enjoy a lot of things in my downtime. Apart from the things I've listed below, I also enjoy instant film photography (using an Instax Mini 90) and adventure sports. The latter mainly involves jumping (safely) from high places, but I'm keen on exploring watersports next! 
+I enjoy a lot of things in my downtime. Apart from the things I've listed below, I also enjoy instant film photography (using an Instax Mini 90) and adventure sports. The latter mainly involves jumping (safely) from high places, but I'm keen on exploring watersports next!
+
+# Aerials
+
+New hobby has been taking over and I absolutely love it.
+
+Been trying my hand at Aerial Slings in Southwark lately and the progress over the past few months has been insanely rewarding to see. Something I'll probably stick to for a long, long time.
+
+Very rewarding for strength and flexibility training. Do recommend it!
+
 # Climbing
 
 I use bouldering as a way to better my mental health. 
 
 I haven't been doing it for long, though. I started in June 2021 but I was set back by a slip that ruined my ankle. Still recovering from it, but I tend to climb with much more precision now because of this!
 
-Currently climbing V3s. See attached picture below for one of my current projects.
+Currently climbing V4-5s. See attached picture below for one of my current projects.
 
 {% include figure.html image="/assets/images/Hobbies_climbing_project.jpeg" caption="Current project (V4). Start is with hands on the holds circled green. The finish is a bit sketchy and it's a tad hard on the fingers." width="800" height="1000" %}
 
@@ -21,7 +30,7 @@ Climbing is a major part of my life now and I use it as a way to organize my tho
 
 # Coffee
 
-As someone who grew in a caffeine-free household, I never thought that coffee would become a subject of passion for me. All I ever drank, prior to this journey, was instant coffee mixed with copious amounts of sugar.
+As someone who grew up in a caffeine-free household, I never thought that coffee would become a subject of passion for me. All I ever drank, prior to this journey, was instant coffee mixed with copious amounts of sugar.
 
 However, during the first Christmas lockdown, thanks to an online offer, I discovered the joy of coffee. I discovered the amazing tasting notes it could possess. Ever since then, this has spiralled into a journey of exploration and discovery about coffee. It has also meant that I can make fresh Affogato at home! See pic below.
 

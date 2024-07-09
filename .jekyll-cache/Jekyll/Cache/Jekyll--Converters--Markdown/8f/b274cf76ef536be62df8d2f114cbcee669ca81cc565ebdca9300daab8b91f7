@@ -1,0 +1,145 @@
+I"�0<h1 id="what-i-bring-to-the-table">What I bring to the table</h1>
+
+<p>I have a broad skillset that I have enhanced over the years. My current focus is on data-driven solutions for complex systems. I’m especially interested in roles that aim to combine machine learning with rigorous scientific avenues. Even better if it involves a bit of Material Science!</p>
+
+<p>My diverse set of experiences would make me a valuable addition to any team, and I would prove to be an asset with my quick learning abilities. I have also led collaborative multinational studies and worked on a breadth of physical computation domains.</p>
+
+<p>Please feel free to reach out if you have any queries! My details are in the <a href="../contact/">Contact</a> tab.</p>
+<h1 id="experience">Experience</h1>
+
+<h5 id="phd-researcher-the-open-university-october-2019---current">PhD Researcher, The Open University <strong>(October 2019 - Current)</strong></h5>
+<p>My PhD deals with high-temperature performance of materials and how they perform at a small-scale.</p>
+
+<p>Broadly, this can be divided into 3 phases:</p>
+
+<ul>
+  <li>Experimentation</li>
+  <li>Simulation</li>
+  <li>Machine learning</li>
+</ul>
+
+<p>The experiments involved were a departure from the conventionally used big specimens in the industry. My research adopts miniaturized novel specimen geometries for these tests. Volumetrically, my newly designed test technique provides a materials saving of 97.89%.</p>
+
+<p>My research would make it easier to inspect powerplants and jet-engines with minimal amount of material, therefore not impacting the structural integrity. This would help in the development of new alloys and test irradiated structures with a higher safety margin.</p>
+
+<p>I’ve gone one step further in my research and I’m investigating the feasibility of combining 3 tests from a single specimen (Small Punch + Small Ring Test). Volumetrically, this resulted in materials savings of 97.89%. Combing 3 tests (creep, tensile, fatigue) is also groundbreaking for these industries. My research overview is outlined below.</p>
+
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/Website_professional_thesis.svg" alt="Research plan outline." width="800" height="1000" />
+  <figcaption class="caption">Research plan outline.</figcaption>
+</figure>
+
+<p>This combination can be visualized in the image below, with the ring painted for computer-vision based strain imaging.</p>
+
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/Professional_ring_disc_combination.jpg" alt="Visualizing my hypothesis of combining ring and disc testing." width="800" height="1000" />
+  <figcaption class="caption">Visualizing my hypothesis of combining ring and disc testing.</figcaption>
+</figure>
+
+<p>I used optimization routines in conjunction with numerical simulations to obtain unknown material parameters. I leveraged this technique to translate the test’s force-displacement data to a more general-purpose stress-strain data for this new testing methodology.</p>
+
+<p>This data was then fed into regression models (XGBoost and Random Forests, primarily) to analyse rate-dependency of the test. The models trained well with an R2 score of 0.95632 and the predictions were extremely close on new hidden data as well, as seen in the image below.</p>
+
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/316L_RT_SRTT_0_3333mmMin_cleaned_RFRandXGB_limited.png" alt="Predictions on new experiments." width="800" height="1000" />
+  <figcaption class="caption">Predictions on new experiments.</figcaption>
+</figure>
+
+<p>My original experiments also performed largely well, as you can see in the heatmaps below. For the Small Ring Test (SRT) I performed 48 experiments at different pin displacement rates and for the Small Punch Test (SPT) I analysed the discs separately and both sets of inter-test comparison results are shown below:</p>
+
+<p>Extensive data cleaning procedures were also analysed, such as butterworth signal filtering (shown below) or the convolution smoothing. See the image below! I also devised a data-cleaning GUI-app for the department so that people don’t have to go through the faff of creating this from scratch for their experiments. <a href="https://github.com/Aniket-J/MatSci-DC/tree/main">GitHub repo here.</a></p>
+
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/butterworth_filter_example.png" alt="Cleaning up the test data." width="800" height="1000" />
+  <figcaption class="caption">Cleaning up the test data.</figcaption>
+</figure>
+
+<p>Using the power of physics baked in with my analytical solution, I devised a physics-informed data-driven conversion method that allows users to obtain material parameteres directly without the need of any expensive simulations for the Small Ring Test.</p>
+
+<p>Below are a couple of images of the Small Ring Test as well. Images are taken from a Nikon D850 camera.</p>
+
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/SRT_initial.jpg" alt="Small Ring Test- Ring specimen (SS316L) at the start of test." width="800" height="1000" />
+  <figcaption class="caption">Small Ring Test- Ring specimen (SS316L) at the start of test.</figcaption>
+</figure>
+
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/SRT_final.jpg" alt="Small Ring Test- Ring specimen (SS316L) at the end of test." width="800" height="1000" />
+  <figcaption class="caption">Small Ring Test- Ring specimen (SS316L) at the end of test.</figcaption>
+</figure>
+
+<h5 id="research-assistant-imperial-college-london-ncs---protect-april-2021---march-2022">Research Assistant, Imperial College London (NCS - PROTECT) <strong>(April 2021 - March 2022)</strong></h5>
+
+<p>As part of the National Transmission Project (NTP), PROTECT portfolio, I worked as a Research Assistant within the AMCG (Applied Modelling &amp; Computation Group) at Imperial College London.</p>
+
+<p>My work involved analyzing the propagation of air-flows in different built environments. My work went on to inform the knowledge domain for COVID-19 and how mitigating measures may be implemented for better health and safety of occupants in any given structure.</p>
+
+<p>This work involves numerical simulations on <a href="https://multifluids.github.io/">IC-FERST</a> for large-scale geometries/structures that are also designed with the help of an in-house software.</p>
+
+<p>Unfortunately, due to the confidential nature of this work, I am not able share any cool images relating to this.</p>
+
+<h5 id="visiting-researcher-imperial-college-london-october-2019---september-2022">Visiting Researcher, Imperial College London <strong>(October 2019 - September 2022)</strong></h5>
+
+<p>This role pertained largely to research in severe accidents in nuclear reactors, and was a part of an ongoing effort to establish international cooperation between AMCG and other academic partners. We published a hugely collaborative paper (titled <a href="https://doi.org/10.1016/j.pnucene.2022.104555">‘Numerical Study of the Effect of Geometry on the Behaviour of Internally Heated Melt Pools for In-Vessel Melt Retention’</a>).</p>
+
+<p>In this role, I supervised MSc projects with our partners and enhance IC-FERST’s capabilities (in-house numerical simulation software) for better simulating severe accidents.</p>
+
+<p>The severe accidents pertain to a cataclysmic event in the lower-head of a reactor pressure vessel, where all the fuel material collects post-accident. More specifically, this work involves simulating the cooling of this fuel debris (it emits a lot of residual heat) and analyze its safety. Below is a snapshot of the fluid dynamics in this reactor after 8 seconds of simulation.</p>
+
+<figure class="figure  figure--center">
+  <img class="image" src="/assets/images/tstep8_temp_velvec_nomesh.png" alt="Velocity vectors superimposed on the temperature field background. Simulation of lower-head of a reactor pressure vessel." width="800" height="1000" />
+  <figcaption class="caption">Velocity vectors superimposed on the temperature field background. Simulation of lower-head of a reactor pressure vessel.</figcaption>
+</figure>
+
+<h5 id="project-intern-drdo-india-dec-2017---may-2018">Project Intern, DRDO, India <strong>(Dec 2017 - May 2018)</strong></h5>
+
+<p>This role involved performing a lot of finite element analysis (FEA), especially in the domain of shock physics and shock loading. Coming into this role, I had virtually zero knowledge about these domains.</p>
+
+<p>However, I was soon simulating shock physics and structural interactions for the design of shock-resistant structures in my role.</p>
+
+<p>I was also leading a study that analysed the effect of variation of geometry in cylindrical charges. This was in addition to other numerous activities, such as analyzing foam attenuation and soil attenuation, that I contributed to.</p>
+
+<p>My role was brief but extremely intensive and I successfully delivered on numerous projects.</p>
+
+<p>References available upon request.</p>
+<h1 id="education">Education</h1>
+
+<h5 id="phd-the-open-university-2019---current">PhD: The Open University (2019 - current)</h5>
+
+<ul>
+  <li>Research area: Materials Science and Machine Learning.</li>
+  <li>Thesis: Evaluation and optimisation of the Small Ring Test and its amalgamation with the Small Punch Test.</li>
+</ul>
+
+<h5 id="msc-imperial-college-london-advanced-nuclear-engineering-distinction">MSc: Imperial College London, Advanced Nuclear Engineering (Distinction)</h5>
+<ul>
+  <li>Thesis: Numerical Modelling of In-Vessel Melt Retention: The LIVE Experiments.</li>
+  <li>Awarded the William Penney Prize for my thesis work.</li>
+</ul>
+
+<h5 id="btech-vit-university-mechanical-engineering-9110">BTech: VIT University, Mechanical Engineering (9.1/10)</h5>
+<ul>
+  <li>Thesis: Analysis of shockwave propagation in air.</li>
+</ul>
+
+<h1 id="select-publications">Select Publications</h1>
+
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Physics and data driven approach to analysing the Small Ring Tensile Test on SS316L at multiple displacement rates.</strong> <em>Under Review.</em></p>
+
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Leveraging digital image correlation for the design of a new strain measurement system for the Small Ring Tensile Test.</strong> <em>Under Review.</em></p>
+
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Preliminary results on feasibility of combination of the Small Ring Test and the Small Punch Test.</strong> <em>Under Review.</em></p>
+
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>Open Source Digital Image Correlation Analysis Data on Select Open Source Data for Small Ring Tensile Test.</strong> <em>Under Review.</em></p>
+
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, Salih Güngör. <strong>“Open-Source Data for Small Ring Tensile Test performed on SS316L at multiple displacement rates.”</strong> <em>Open Research Data Online, The Open University.</em></p>
+
+<p>Akash Venkateshwaran, Mahendhar Kumar, Shyam Kumar, R. Sivakumar, <strong>Aniket Joshi</strong>, and Christopher Pain. <strong>“Numerical study of the effect of geometry on the behaviour of internally heated melt pools for in-vessel melt retention.”</strong> <em>Progress in Nuclear Energy 156</em> (2023): 104555.</p>
+
+<p><strong>Aniket Joshi</strong>, Alex Forsey, Richard Moat, and Salih Güngör. <strong>“Preliminary results on conducting Small-Ring Test and Small-Punch Test on the same specimen.”</strong> <em>Transactions, SMiRT-26, 2022.</em></p>
+
+<p>Rossella Arcucci, César Quilodrán Casas, <strong>Aniket Joshi</strong>, Laetitia Mottet, Asiri Obeysekara, Yi-Ke Guo, and Christopher Pain. 
+<strong>“Enhancing CFD simulations of COVID-19 diffusion by coughing and sneezing using data assimilation.”</strong> <em>High Performance Computing on CRESCO Infrastructure: research activity and results 2020 (2021): 52.</em></p>
+
+<p><strong>Aniket Joshi</strong>, Claire Heaney, Alan Jones, Liang Yang, Paul Smith, Ali Tehrani, Christopher C Pain. <strong>“Numerical modelling of in-vessel melt retention: The LIVE Experiments.”</strong> <em>25th International QUENCH Workshop: 22-24 October 2019, Karlsruhe Institute of Technology, Karlsruhe, Germany.</em></p>
+:ET
