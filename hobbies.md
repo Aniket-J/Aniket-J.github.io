@@ -8,11 +8,13 @@ I enjoy a lot of things in my downtime. Apart from the things I've listed below,
 
 # Aerials
 
-New hobby has been taking over and I absolutely love it.
+Aerialist for around a year now.
 
-Been trying my hand at Aerial Slings in Southwark lately and the progress over the past few months has been insanely rewarding to see. Something I'll probably stick to for a long, long time.
+Been trying my hand at Aerial Slings and Straps in Southwark lately and the progress over the past few months has been insanely rewarding to see. Something I'll probably stick to for a long, long time.
 
 Very rewarding for strength and flexibility training. Do recommend it!
+
+{% include figure.html image="/assets/images/Hobbies_aerials.jpg" caption="Up in the air." width="800" height="1000" %}
 
 # Climbing
 
@@ -20,13 +22,7 @@ I use bouldering as a way to better my mental health.
 
 I haven't been doing it for long, though. I started in June 2021 but I was set back by a slip that ruined my ankle. Still recovering from it, but I tend to climb with much more precision now because of this!
 
-Currently climbing V4-5s. See attached picture below for one of my current projects.
-
 {% include figure.html image="/assets/images/Hobbies_climbing_project.jpeg" caption="Current project (V4). Start is with hands on the holds circled green. The finish is a bit sketchy and it's a tad hard on the fingers." width="800" height="1000" %}
-
-Climbing is a major part of my life now and I use it as a way to organize my thoughts and go to a zen place. It's truly magical and discovering this sport has been a life-changing experience for me. 
-
-[Here's a link to my Instagram page](https://www.instagram.com/climbing_aniketj/) where I upload almost weekly. Feel free to have a look and DM me if you wish to do so!
 
 # Coffee
 

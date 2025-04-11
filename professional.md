@@ -12,7 +12,57 @@ My diverse set of experiences would make me a valuable addition to any team, and
 Please feel free to reach out if you have any queries! My details are in the [Contact](../contact/) tab.
 # Experience
 
-##### Gen AI Research Engineer, Royal College of Art & Young Vic Theatre **(Mar 2024 - Current)** #####
+##### ML Research Engineer, Imperial College London **(Oct 2024 - Mar 2025)** #####
+
+This has been one of the most ambitious and rewarding role that I've had. AMCG (Applied Modelling and Computation Group) needed something that consolidated all of it's burgeoning Gen AI tech stack under a single umbrella. AI4PDEs is one of their arms that is a Foundational AI model, but there was no Foundational Generative AI model. This is where I come in. 
+
+I developed RAPIDS (Rapid AI-Powered Image-to-Dynamic Simulations) for AMCG, which will serve as the group's workhorse for years to come. RAPIDS is a grid and size invariant architecture that offers tons of flexbility in what kind of model to train. The image below showcases a few of the major permutations of the Foundational Gen AI models that can be trained with RAPIDS. It is also extremely extensible and modular and flexible in its approach.
+
+{% include figure.html image="/assets/images/RAPIDS_config_basic.png" caption="RAPIDS major configs" width="800" height="1000" %}
+
+The flexibility allows for RAPIDS to be trained on anything and infer on something else entirely. For instance, a model from RAPIDS can be trained on a flow past car case, and then can be used to infer on a flow past building case. Same goes for porous media and carbon sequestration. Some demo videos below.
+
+<div style="text-align: center;">
+  <video width="1000" height="800" controls>
+    <source src="/assets/videos/unetpp.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p style="font-style: italic;">Flow past car. Left is ground truth, middle is UNet++ (implicit) from RAPIDS, and the right side is the difference field.</p>
+</div>
+
+<div style="text-align: center;">
+  <video width="1000" height="800" controls>
+    <source src="/assets/videos/co2capture.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p style="font-style: italic;">Carbon sequestration in RAPIDS showing the various fields. Left is ground truth, middle is a UNet++ (explicit) from RAPIDS, and the right side is the difference field.</p>
+</div>
+
+I am super excited to see how RAPIDS changes the world and how AMCG uses it. We have around 6 publications upcoming for this, including a few in NeurIPS to demonstrate some of the cool new Gen AI stuff we developed, including some that I came up with originally as well! To summarise, few things that I have been responsible for and delivered on:
+
+* Secured partnership for AMCG worth £6m (more in progress).
+* Lead Dev for RAPIDS, next gen Foundational Generative AI software.
+    * With CI/CD pipelines.
+    * Developed new tech within RAPIDS.
+    * Folded in existing tech of AMCG within RAPIDS.
+    * Made sure the package is highly extensible, modular, and test-driven.
+    * Dockerised all architectures for industrial partners, ensuring consistent and scalable Gen AI.
+* Wrote AI-PULSE (Artistic Intelligence for Personal Understanding of Language, Systems, and Experiences) grant (£1.2m), that was selected internally by both Royal College of Arts and Imperial College London for UKRI Cross Research Council Call.
+    * Invited to final stage.
+* Co-lead dev for SCAlED, a subset of RAPIDS that uses Diffusion Gen AI.
+* Developed novel in-painting techniques to enhance long-term Gen AI video stability.
+* Pioneered PDE-based adaptive training for improved stability in long-term image/video predictions.
+* Led research to incorporate complex physical constraints into Gen AI models.
+
+##### Creative Technologist, Young Vic Theatre **(Feb 2025 - Mar 2025)** #####
+
+In this role I took over the tech stack of Young Vic Theatre that relates to the deployment of artistic interventions via Meta communication channels. We chose to go with WhatsApp due to its prevalence.
+
+This role allowed me to unleash my skills in arts and engineering as I combined them to develop a tech platform that is future-proof for the Theatre, allowing for artists to deploy their interventions seamlessly during a live play.
+
+This was eventually deployed for a hugely successful run of Five Shorts.
+
+##### Gen AI Research Engineer, Royal College of Art & Young Vic Theatre **(Mar 2024 - Jul 2024)** #####
 
 As seems to be the case with everything now, this role covered a lot of things (and I say this positively), and has been super fun. Few things that I have been responsible for and delivered on:
 
@@ -22,7 +72,7 @@ As seems to be the case with everything now, this role covered a lot of things (
 * Customised LLMs above using client data after identifying appropriate strategy (LoRA, ORPO, etc).
 * Designed and deployed LLM tech stack in AWS Sagemaker (monitored via Shadow inferencing and Cloudwatch).
 * Developed in-house software for organisation to extract data from own docs for precise LLM fine-tuning.
-* Co-authored extensive multinational collaborative grants (£1m+) to address ethics in Gen AI.
+* Co-authored extensive multinational collaborative grants (£5m+) to address ethics in Gen AI.
 
 This role has given me a deep insight into something I deeply care about: LLM deployment but responsibly. Ethics in Gen AI are a tricky issue and navigating this in a production environment has been extremely rewarding and it's a super awesome system!
 
@@ -61,7 +111,7 @@ My research would make it easier to inspect powerplants and jet-engines with min
 
 I've gone one step further in my research and I'm investigating the feasibility of combining 3 tests from a single specimen (Small Punch + Small Ring Test). Volumetrically, this resulted in materials savings of 97.89%. Combing 3 tests (creep, tensile, fatigue) is also groundbreaking for these industries. My research overview is outlined below.
 
-{% include figure.html image="/assets/images/Website_professional_thesis.svg" caption="Research plan outline." width="800" height="1000" %}
+{% include figure.html image="/assets/images/Website_professional_thesis.svg" caption="Research outline." width="800" height="1000" %}
 
 This combination can be visualized in the image below, with the ring painted for computer-vision based strain imaging. 
 
